@@ -186,7 +186,10 @@ layout: base.njk
                 <a href="{{ localeHref(member.profileHref) }}" aria-label="{{ member.profileLabel }}"><i class="bi bi-person-vcard" aria-hidden="true"></i></a>
                 <a href="mailto:{{ member.email }}" aria-label="{{ member.emailLabel }}"><i class="bi bi-envelope" aria-hidden="true"></i></a>
                 {% if member.github %}
-                <a href="{{ member.github }}" aria-label="{{ member.githubLabel }}"><i class="bi bi-github" aria-hidden="true"></i></a>
+                <a href="{{ member.github }}" target="_blank" rel="noopener noreferrer" aria-label="{{ member.githubLabel }}"><i class="bi bi-github" aria-hidden="true"></i></a>
+                {% endif %}
+                {% if member.linkedin %}
+                <a href="{{ member.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="{{ member.linkedinLabel }}"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
                 {% endif %}
               </div>
             </div>

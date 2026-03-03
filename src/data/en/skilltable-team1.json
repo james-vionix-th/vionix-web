@@ -8,7 +8,12 @@
     "role": "Founder & Principal Consultant",
     "image": "assets/img/team/team-1.jpg",
     "imageAlt": "Portrait of Stefan, Founder and Principal Consultant at Vionix",
-    "github": "https://github.com/vionix-th"
+    "email": "stefan@vionix.cloud",
+    "emailLabel": "Email Stefan",
+    "github": "https://github.com/vionix-th",
+    "githubLabel": "Vionix on GitHub",
+    "linkedin": "https://www.linkedin.com/in/vionix",
+    "linkedinLabel": "Vionix on LinkedIn"
   },
   "intro": {
     "lead": "Software Engineer with over 20 years of experience in software development, project management, and team leadership.",

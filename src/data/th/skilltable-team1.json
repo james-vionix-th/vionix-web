@@ -8,7 +8,12 @@
     "role": "ผู้ก่อตั้งและที่ปรึกษาหลัก",
     "image": "assets/img/team/team-1.jpg",
     "imageAlt": "Portrait of Stefan, Founder and Principal Consultant at Vionix",
-    "github": "https://github.com/vionix-th"
+    "email": "stefan@vionix.cloud",
+    "emailLabel": "อีเมลถึง Stefan",
+    "github": "https://github.com/vionix-th",
+    "githubLabel": "Vionix บน GitHub",
+    "linkedin": "https://www.linkedin.com/in/vionix",
+    "linkedinLabel": "Vionix บน LinkedIn"
   },
   "intro": {
     "lead": "วิศวกรซอฟต์แวร์ประสบการณ์มากกว่า 20 ปี ครอบคลุมการพัฒนา การบริหารโครงการ และการนำทีม",
