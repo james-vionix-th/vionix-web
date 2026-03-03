@@ -7,7 +7,11 @@
     "name": "Ruthairat",
     "role": "Co-Founder & Director Quality Engineering",
     "image": "assets/img/team/team-2.jpg",
-    "imageAlt": "Portrait of Ruthairat, Co-Founder and Director of Quality Engineering at Vionix"
+    "imageAlt": "Portrait of Ruthairat, Co-Founder and Director of Quality Engineering at Vionix",
+    "email": "ruthairat@vionix.cloud",
+    "emailLabel": "Email Ruthairat",
+    "linkedin": "https://www.linkedin.com/in/ruthairat-hongthong-5b969bb2/",
+    "linkedinLabel": "Ruthairat on LinkedIn"
   },
   "intro": {
     "lead": "Experienced professional in Supplier Quality Engineering with comprehensive expertise in project management, quality assurance, and supplier relations.",

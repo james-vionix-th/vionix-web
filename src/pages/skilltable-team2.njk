@@ -27,6 +27,17 @@ layout: base.njk
           <div class="team-member">
             <div class="member-img">
               <img src="{{ t.member.image }}" class="img-fluid" alt="{{ t.member.imageAlt }}">
+              <div class="social">
+                {% if t.member.email %}
+                <a href="mailto:{{ t.member.email }}" aria-label="{{ t.member.emailLabel }}"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+                {% endif %}
+                {% if t.member.github %}
+                <a href="{{ t.member.github }}" target="_blank" rel="noopener noreferrer" aria-label="{{ t.member.githubLabel }}"><i class="bi bi-github" aria-hidden="true"></i></a>
+                {% endif %}
+                {% if t.member.linkedin %}
+                <a href="{{ t.member.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="{{ t.member.linkedinLabel }}"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+                {% endif %}
+              </div>
             </div>
             <div class="member-info">
               <h4>{{ t.member.name }}</h4>
