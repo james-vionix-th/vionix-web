@@ -192,7 +192,7 @@
         
         
         
-        <p>Delivery model: Principal-led engagement (Stefan, Founder &amp; Principal Consultant) Client: Rhine Equipment Services (German construction equipment dealer and service provider)</p>
+        <p>Execution context: Field-service rebuild led by Stefan within the ERP vendor environment for a machinery-service client. Client: Rhine Equipment Services (German construction equipment dealer and service provider).</p>
         
         
         
@@ -233,7 +233,7 @@
         <h3>Approach</h3>
         
         
-        <p>1. Replaced the code generator with standard WinForms and C# Vionix migrated the application logic entirely to C# and eliminated the Node. js layer. A one-time conversion utility extracted salvageable form definitions from the database XML and translated them into native C# WinForms source code.</p>
+        <p>1. Replaced the code generator with standard WinForms and C# Stefan migrated the application logic entirely to C# and eliminated the Node. js layer. A one-time conversion utility extracted salvageable form definitions from the database XML and translated them into native C# WinForms source code.</p>
         
         
         
@@ -241,11 +241,11 @@
         
         
         
-        <p>3. Used SQL Server Views as the &quot;source of truth&quot; for data contracts Rather than writing custom extraction programs to transform schema A into schema B, Vionix exposed server-side Views (with computed fields where necessary) that represented exactly what the client needed. Administrators could configure filters for example &quot;sync only public product groups, exclude wholesale categories&quot; that were applied as SQL WHERE clauses.</p>
+        <p>3. Used SQL Server Views as the &quot;source of truth&quot; for data contracts Rather than writing custom extraction programs to transform schema A into schema B, Stefan exposed server-side Views (with computed fields where necessary) that represented exactly what the client needed. Administrators could configure filters for example &quot;sync only public product groups, exclude wholesale categories&quot; that were applied as SQL WHERE clauses.</p>
         
         
         
-        <p>4. Propagated schema automatically via SOAP and WSDL Vionix implemented SOAP web services with WSDL schema definitions. Visual Studio&#39;s built-in tooling consumed the WSDL and automatically generated the typed DataSet client-side—no manual protocol coding required. When Views changed, the schema update propagated automatically.</p>
+        <p>4. Propagated schema automatically via SOAP and WSDL Stefan implemented SOAP web services with WSDL schema definitions. Visual Studio&#39;s built-in tooling consumed the WSDL and automatically generated the typed DataSet client-side—no manual protocol coding required. When Views changed, the schema update propagated automatically.</p>
         
         
         
@@ -253,7 +253,7 @@
         
         
         
-        <p>6. Implemented local offline storage with recovery safeguards Instead of using an embedded database, Vionix retained XML for local persistence but implemented a ring-buffer pattern: the last ten save operations were preserved, enabling plausibility checks and recovery from corruption. Data was encrypted at rest using a device-bound key.</p>
+        <p>6. Implemented local offline storage with recovery safeguards Instead of using an embedded database, Stefan retained XML for local persistence but implemented a ring-buffer pattern: the last ten save operations were preserved, enabling plausibility checks and recovery from corruption. Data was encrypted at rest using a device-bound key.</p>
         
         
         
@@ -264,7 +264,7 @@
         <h3>What Was Delivered</h3>
         
         
-        <p>After approximately two years of development, Vionix handed over to the client&#39;s internal development team:</p>
+        <p>After approximately two years of development, Stefan handed the rebuilt application over to the receiving internal development team:</p>
         
         
         
@@ -322,7 +322,7 @@
         <h3>Why It Worked</h3>
         
         
-        <p>Strong typing throughout the stack eliminated an entire category of errors. By mirroring the server schema exactly in the client DataSet, Vionix caught constraint violations and referential integrity problems immediately—before data left the device.</p>
+        <p>Strong typing throughout the stack eliminated an entire category of errors. By mirroring the server schema exactly in the client DataSet, the design caught constraint violations and referential integrity problems immediately—before data left the device.</p>
         
         
         
@@ -338,10 +338,10 @@
         
         
         
-        <h3>How Vionix Worked</h3>
+        <h3>Execution Context</h3>
         
         
-        <p>Vionix operated in a stabilization-and-rebuild model over approximately two years, working in parallel with the client&#39;s ongoing operations. Vionix delivered the completed application to the client&#39;s internal development team for final acceptance testing and rollout, transferring full source code, test suites, and operational knowledge. The client retained complete control over sync filters and admin configuration, and the beta tester program ensured that user feedback shaped the final product before broad deployment.</p>
+        <p>Stefan drove the stabilization and rebuild over approximately two years while the client continued live operations. The work combined architecture repair, offline-first redesign, validation with pilot users, and staged transfer to the receiving team. The result was handed over with source code, test suites, and operational knowledge so the client organization retained full control after rollout.</p>
         
         
         

@@ -188,14 +188,14 @@
         <h3>Snapshot</h3>
         
         
-        <p>Delivery model: Principal-led engagement (Stefan, Founder &amp; Principal Consultant) Client: Skyline Access (German aerial work platform rental group) Fleet Scale: 1,000+ machines across nationwide locations Core System: InterSystems Caché database managing rental inventory, maintenance schedules, and customer orders Challenge Duration: 3 months (architecture, implementation, and go-live)</p>
+        <p>Execution context: Customer-facing integration work led by Stefan within the ERP vendor&#39;s delivery organization. Client: Skyline Access (German aerial work platform rental group). Fleet scale: 1,000+ machines across nationwide locations. Core system: InterSystems Caché database managing rental inventory, maintenance schedules, and customer orders. Challenge duration: 3 months (architecture, implementation, and go-live).</p>
         
         
         
         <h3>The Challenge</h3>
         
         
-        <p>A major German rental company had commissioned a third-party web developer to build an online booking platform for aerial work platforms. The project was well underway—design was polished, user flows were functional, and a launch date had been agreed. But no one had planned how the webshop would connect to the live rental management system. The web developer had built the storefront in isolation, with no visibility into the company&#39;s existing IT infrastructure, database architecture, or API requirements. When the rental company contacted Vionix to &quot;connect the two systems,&quot; it became clear that integration hadn&#39;t just been deferred—it hadn&#39;t been scoped at all.</p>
+        <p>A major German rental company had commissioned a third-party web developer to build an online booking platform for aerial work platforms. The project was well underway—design was polished, user flows were functional, and a launch date had been agreed. But no one had planned how the webshop would connect to the live rental management system. The web developer had built the storefront in isolation, with no visibility into the company&#39;s existing IT infrastructure, database architecture, or API requirements. When the missing integration work landed with Stefan, it became clear that integration hadn&#39;t just been deferred—it hadn&#39;t been scoped at all.</p>
         
         
         
@@ -221,7 +221,7 @@
         <h3>Approach</h3>
         
         
-        <p>Vionix convened a three-party workshop (rental company IT, web developer, and Vionix) to map out the missing integration layer.</p>
+        <p>Stefan convened a three-party workshop (rental company IT, web developer, and the ERP-side delivery team) to map out the missing integration layer.</p>
         
         
         
@@ -235,7 +235,7 @@
           
           <li>REST API Design: Implemented a REST endpoint to expose machine availability data. The API logic incorporated: machine group substitutions (to offer alternative models when a specific unit was unavailable), maintenance schedules (to exclude machines with upcoming service requirements), distance-to-site filtering (to prioritise logistically viable machines), and cross-referenced order data (to block machines already reserved by other customers).</li>
           
-          <li>Data Quality Feedback Loop: During testing, the webshop surfaced inconsistent availability results. Investigation revealed legacy data errors in the rental database for example machines marked as available despite scheduled maintenance. Vionix traced these back to historical data entry mistakes, enabling the client to correct long-standing data hygiene issues.</li>
+          <li>Data Quality Feedback Loop: During testing, the webshop surfaced inconsistent availability results. Investigation revealed legacy data errors in the rental database for example machines marked as available despite scheduled maintenance. Stefan traced these back to historical data entry mistakes, enabling the client to correct long-standing data hygiene issues.</li>
           
           <li>Handover &amp; Knowledge Transfer: Delivered training to internal IT on firewall maintenance, DMZ server hardening, API monitoring, and the security implications of operating public-facing services.</li>
           
@@ -263,7 +263,7 @@
         <h3>Results</h3>
         
         
-        <p>The webshop went live on schedule after three months of integration work. Vionix handed over all infrastructure and API components to internal IT, who assumed full operational responsibility. While Vionix did not track post-launch adoption metrics, the project unblocked a strategic digital channel for a company operating across 40+ locations in Germany&#39;s competitive aerial work platform rental market.</p>
+        <p>The webshop went live on schedule after three months of integration work. Stefan handed over the infrastructure and API components to the receiving IT teams, who assumed full operational responsibility. While post-launch adoption metrics were not tracked in this material, the project unblocked a strategic digital channel for a company operating across 40+ locations in Germany&#39;s competitive aerial work platform rental market.</p>
         
         
         
@@ -278,7 +278,7 @@
         
         
         
-        <p>Domain Logic Centralised in the API: By embedding complex availability rules (maintenance, distance, substitutions) in the backend API rather than the webshop, Vionix ensured that rental logic remained consistent across all future sales channels.</p>
+        <p>Domain Logic Centralised in the API: By embedding complex availability rules (maintenance, distance, substitutions) in the backend API rather than the webshop, Stefan ensured that rental logic remained consistent across all future sales channels.</p>
         
         
         
@@ -286,10 +286,10 @@
         
         
         
-        <h3>How Vionix Worked</h3>
+        <h3>Execution Context</h3>
         
         
-        <p>Vionix operated as a technical mediator between the web development firm and the rental company&#39;s internal IT, translating business requirements into infrastructure decisions. After architecting and implementing the integration layer, Vionix transferred all assets and operational knowledge to the client&#39;s team, enabling them to maintain and evolve the system independently.</p>
+        <p>Stefan acted as the technical bridge between the external web agency, the rental company&#39;s internal stakeholders, and the ERP-side delivery organization. After architecting and implementing the integration layer, he transferred the resulting assets and operating knowledge so the receiving teams could maintain and evolve the solution independently.</p>
         
         
         
