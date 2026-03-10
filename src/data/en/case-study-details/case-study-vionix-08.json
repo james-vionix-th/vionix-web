@@ -18,7 +18,7 @@
         },
         {
           "type": "p",
-          "text": "Delivery model: Principal-led engagement (Stefan, Founder & Principal Consultant) Client: Rhine Equipment Services (German construction equipment dealer and service provider)"
+          "text": "Execution context: Field-service rebuild led by Stefan within the ERP vendor environment for a machinery-service client. Client: Rhine Equipment Services (German construction equipment dealer and service provider)."
         }
       ]
     },
@@ -62,7 +62,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "1. Replaced the code generator with standard WinForms and C# Vionix migrated the application logic entirely to C# and eliminated the Node. js layer. A one-time conversion utility extracted salvageable form definitions from the database XML and translated them into native C# WinForms source code."
+          "text": "1. Replaced the code generator with standard WinForms and C# Stefan migrated the application logic entirely to C# and eliminated the Node. js layer. A one-time conversion utility extracted salvageable form definitions from the database XML and translated them into native C# WinForms source code."
         },
         {
           "type": "p",
@@ -70,11 +70,11 @@
         },
         {
           "type": "p",
-          "text": "3. Used SQL Server Views as the \"source of truth\" for data contracts Rather than writing custom extraction programs to transform schema A into schema B, Vionix exposed server-side Views (with computed fields where necessary) that represented exactly what the client needed. Administrators could configure filters for example \"sync only public product groups, exclude wholesale categories\" that were applied as SQL WHERE clauses."
+          "text": "3. Used SQL Server Views as the \"source of truth\" for data contracts Rather than writing custom extraction programs to transform schema A into schema B, Stefan exposed server-side Views (with computed fields where necessary) that represented exactly what the client needed. Administrators could configure filters for example \"sync only public product groups, exclude wholesale categories\" that were applied as SQL WHERE clauses."
         },
         {
           "type": "p",
-          "text": "4. Propagated schema automatically via SOAP and WSDL Vionix implemented SOAP web services with WSDL schema definitions. Visual Studio's built-in tooling consumed the WSDL and automatically generated the typed DataSet client-side—no manual protocol coding required. When Views changed, the schema update propagated automatically."
+          "text": "4. Propagated schema automatically via SOAP and WSDL Stefan implemented SOAP web services with WSDL schema definitions. Visual Studio's built-in tooling consumed the WSDL and automatically generated the typed DataSet client-side—no manual protocol coding required. When Views changed, the schema update propagated automatically."
         },
         {
           "type": "p",
@@ -82,7 +82,7 @@
         },
         {
           "type": "p",
-          "text": "6. Implemented local offline storage with recovery safeguards Instead of using an embedded database, Vionix retained XML for local persistence but implemented a ring-buffer pattern: the last ten save operations were preserved, enabling plausibility checks and recovery from corruption. Data was encrypted at rest using a device-bound key."
+          "text": "6. Implemented local offline storage with recovery safeguards Instead of using an embedded database, Stefan retained XML for local persistence but implemented a ring-buffer pattern: the last ten save operations were preserved, enabling plausibility checks and recovery from corruption. Data was encrypted at rest using a device-bound key."
         },
         {
           "type": "p",
@@ -96,7 +96,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "After approximately two years of development, Vionix handed over to the client's internal development team:"
+          "text": "After approximately two years of development, Stefan handed the rebuilt application over to the receiving internal development team:"
         },
         {
           "type": "list",
@@ -146,7 +146,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Strong typing throughout the stack eliminated an entire category of errors. By mirroring the server schema exactly in the client DataSet, Vionix caught constraint violations and referential integrity problems immediately—before data left the device."
+          "text": "Strong typing throughout the stack eliminated an entire category of errors. By mirroring the server schema exactly in the client DataSet, the design caught constraint violations and referential integrity problems immediately—before data left the device."
         },
         {
           "type": "p",
@@ -164,11 +164,11 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "How Vionix Worked",
+      "heading": "Execution Context",
       "blocks": [
         {
           "type": "p",
-          "text": "Vionix operated in a stabilization-and-rebuild model over approximately two years, working in parallel with the client's ongoing operations. Vionix delivered the completed application to the client's internal development team for final acceptance testing and rollout, transferring full source code, test suites, and operational knowledge. The client retained complete control over sync filters and admin configuration, and the beta tester program ensured that user feedback shaped the final product before broad deployment."
+          "text": "Stefan drove the stabilization and rebuild over approximately two years while the client continued live operations. The work combined architecture repair, offline-first redesign, validation with pilot users, and staged transfer to the receiving team. The result was handed over with source code, test suites, and operational knowledge so the client organization retained full control after rollout."
         }
       ]
     }

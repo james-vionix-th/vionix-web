@@ -14,7 +14,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Delivery model: Principal-led engagement (Stefan, Founder & Principal Consultant) Client: Ironbridge ERP (German ERP provider for machinery trade and rental) Challenge: In-house Business Intelligence system with nightly batch processes couldn't scale—larger customers exceeded the overnight window, resulting in incomplete data and lost trust Duration: 3 months Approach: Replaced complex ETL architecture with optimized SQL Views, proper indexing, and runtime calculations on the source database"
+          "text": "Execution context: Internal BI architecture intervention led by Stefan within an ERP software organization. Client context: Ironbridge ERP (German ERP provider for machinery trade and rental). Challenge: An in-house Business Intelligence system with nightly batch processes could not scale—larger customers exceeded the overnight window, resulting in incomplete data and lost trust. Duration: 3 months. Approach: Replaced complex ETL architecture with optimized SQL Views, proper indexing, and runtime calculations on the source database."
         }
       ]
     },
@@ -60,23 +60,23 @@
       "blocks": [
         {
           "type": "p",
-          "text": "1. Rapid Discovery and Hypothesis Testing (10 Days) Vionix audited the existing transformation logic and examined the SQL queries the BI system executed against the secondary database. Within days, the pattern was clear: missing indexes caused full table scans, and the \"complex\" transformations were straightforward JOINs and aggregations. The nightly ETL existed solely because the team believed real-time was impossible—not because it actually was."
+          "text": "1. Rapid Discovery and Hypothesis Testing (10 Days) Stefan audited the existing transformation logic and examined the SQL queries the BI system executed against the secondary database. Within days, the pattern was clear: missing indexes caused full table scans, and the \"complex\" transformations were straightforward JOINs and aggregations. The nightly ETL existed solely because the team believed real-time was impossible—not because it actually was."
         },
         {
           "type": "p",
-          "text": "2. Proof of Concept with SQL Views Vionix built a prototype that replicated 2-3 of the most commonly used BI reports using SQL Views on the source ERP database. The views abstracted the data preparation layer—implementing proper JOINs, adding calculated fields (inventory levels, average sales prices), and leveraging stored procedures where complexity warranted. Vionix used SQL Server's query optimizer and execution plans to identify exactly which indexes were missing, then added them to the live tables."
+          "text": "2. Proof of Concept with SQL Views Stefan built a prototype that replicated 2-3 of the most commonly used BI reports using SQL Views on the source ERP database. The views abstracted the data preparation layer—implementing proper JOINs, adding calculated fields (inventory levels, average sales prices), and leveraging stored procedures where complexity warranted. He used SQL Server's query optimizer and execution plans to identify exactly which indexes were missing, then added them to the live tables."
         },
         {
           "type": "p",
-          "text": "3. Performance Validation in Parallel Vionix ran both systems side-by-side: the legacy nightly ETL and the new real-time Views. This allowed direct data comparison to ensure accuracy and provided a safety net. Load testing under production-like conditions (tens of millions of records for the largest customers) confirmed negligible impact on ERP INSERT/UPDATE operations. Exclusive locks were minimal; daily business workflows remained unaffected."
+          "text": "3. Performance Validation in Parallel Stefan ran both systems side-by-side: the legacy nightly ETL and the new real-time Views. This allowed direct data comparison to ensure accuracy and provided a safety net. Load testing under production-like conditions (tens of millions of records for the largest customers) confirmed negligible impact on ERP INSERT/UPDATE operations. Exclusive locks were minimal; daily business workflows remained unaffected."
         },
         {
           "type": "p",
-          "text": "4. Developer Buy-In Through Collaboration The original developers initially resisted—their transformation system was being dismantled. Vionix reframed the conversation: rather than assigning blame, Vionix positioned them as essential partners in the migration. Once they saw the prototype's simplicity (updating a SELECT statement in a View versus debugging thousands of lines of brittle transformation code), enthusiasm replaced resistance. The new approach was objectively easier to maintain."
+          "text": "4. Developer Buy-In Through Collaboration The original developers initially resisted—their transformation system was being dismantled. Stefan reframed the conversation: rather than assigning blame, he positioned them as essential partners in the migration. Once they saw the prototype's simplicity (updating a SELECT statement in a View versus debugging thousands of lines of brittle transformation code), enthusiasm replaced resistance. The new approach was objectively easier to maintain."
         },
         {
           "type": "p",
-          "text": "5. Full Migration and Knowledge Transfer Over the remaining weeks, Vionix systematically migrated all BI data structures to the View-based architecture. Vionix ensured feature completeness, then conducted structured training sessions—presentations, tutorials, and walkthroughs with the development team. They took notes, asked questions, and received the materials as references. Code comments served as inline documentation; no separate manuals were requested or required."
+          "text": "5. Full Migration and Knowledge Transfer Over the remaining weeks, Stefan systematically migrated all BI data structures to the View-based architecture. He ensured feature completeness, then conducted structured training sessions—presentations, tutorials, and walkthroughs with the development team. They took notes, asked questions, and received the materials as references. Code comments served as inline documentation; no separate manuals were requested or required."
         },
         {
           "type": "p",
@@ -129,7 +129,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Questioning Legacy Assumptions The entire ETL architecture existed because someone once believed real-time was impossible. No one revisited that assumption as SQL Server capabilities evolved. Vionix audited the premise, not just the implementation."
+          "text": "Questioning Legacy Assumptions The entire ETL architecture existed because someone once believed real-time was impossible. No one revisited that assumption as SQL Server capabilities evolved. Stefan audited the premise, not just the implementation."
         },
         {
           "type": "p",
@@ -141,29 +141,29 @@
         },
         {
           "type": "p",
-          "text": "Proof Over Persuasion Vionix didn't argue that real-time would work; Vionix demonstrated it. The prototype with 2-3 reports, backed by execution plans and parallel validation, made the case irrefutable."
+          "text": "Proof Over Persuasion Stefan didn't argue that real-time would work; he demonstrated it. The prototype with 2-3 reports, backed by execution plans and parallel validation, made the case irrefutable."
         },
         {
           "type": "p",
-          "text": "Managing the Human System Technical correctness isn't enough when egos are involved. Vionix involved the original developers as collaborators, let them experience the simplicity firsthand, and celebrated their institutional knowledge. The solution succeeded because people accepted it, not just because it was technically sound."
+          "text": "Managing the Human System Technical correctness isn't enough when egos are involved. Stefan involved the original developers as collaborators, let them experience the simplicity firsthand, and celebrated their institutional knowledge. The solution succeeded because people accepted it, not just because it was technically sound."
         }
       ]
     },
     {
       "id": "how-vionix-worked",
-      "heading": "How Vionix Worked",
+      "heading": "Execution Context",
       "blocks": [
         {
           "type": "p",
-          "text": "Vionix operated as embedded technical advisors over three months. The discovery phase (10 days) established feasibility; the remaining time focused on systematic migration, validation, and knowledge transfer."
+          "text": "Stefan led the work from inside the ERP organization, starting with a short feasibility phase and then moving through migration, side-by-side validation, and knowledge transfer with the existing development team."
         },
         {
           "type": "p",
-          "text": "Training was structured but practical: live sessions with the development team, presentation materials for reference, and inline code documentation. Vionix didn't impose heavy process—just enough rigor to ensure the team could sustain the system independently."
+          "text": "Training was structured but practical: live sessions with the development team, presentation materials for reference, and inline code documentation. The aim was not to impose heavy process, but to leave the team able to sustain the architecture independently."
         },
         {
           "type": "p",
-          "text": "The engagement was billed hourly, reflecting the iterative nature of the work. Vionix identified the solution early but took time to validate thoroughly, migrate carefully, and build genuine internal capability. By handover, the client's team owned the architecture—not just the code, but the reasoning behind it."
+          "text": "The solution direction became clear early, but the remaining time was used to validate thoroughly, migrate carefully, and build genuine internal capability. By handover, the team owned the architecture—not just the code, but the reasoning behind it."
         }
       ]
     }

@@ -14,7 +14,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Liefermodell: Principal-geführtes Engagement (Stefan, Gründer und Principal Consultant). Kunde: Canopy Metrics (deutsches Forst-Analytics-Vorhaben). Branche: Umweltwissenschaft und Forsttechnologie. Zielgruppe: deutsche Landesforstbehörden. Zeitleiste: etwa ein Jahr. Umfang: Überführung neuartiger Forstalgorithmen aus universitären Skriptwerkzeugen in eine ausrollbare Windows-Desktopanwendung."
+          "text": "Umsetzungskontext: Produktisierungsarbeit, fachlich geführt von Stefan innerhalb eines kleinen Forstsoftware-Teams. Kundenkontext: Canopy Metrics (deutsches Forst-Analytics-Vorhaben). Branche: Umweltwissenschaft und Forsttechnologie. Zielgruppe: deutsche Landesforstbehörden. Zeitleiste: etwa ein Jahr. Umfang: Überführung neuartiger Forstalgorithmen aus universitären Skriptwerkzeugen in eine ausrollbare Windows-Desktopanwendung."
         }
       ]
     },
@@ -61,7 +61,7 @@
         },
         {
           "type": "p",
-          "text": "2. Industrielles Entwicklungsumfeld aufbauen Vionix führte Versionskontrolle ein und definierte Entwicklungsstandards für ein gemischtes Team aus Praktikanten, Mathematikern und Forscher. Branching, Review-Routinen und ein strukturierter Build-Prozess wurden etabliert. So konnten Mathematiker mit grundlegenden Programmierkenntnissen Algorithmusmodule beisteuern, ohne die Hauptcodebasis zu destabilisieren."
+          "text": "2. Industrielles Entwicklungsumfeld aufbauen Stefan führte Versionskontrolle ein und definierte Entwicklungsstandards für ein gemischtes Team aus Praktikanten, Mathematikern und Forschern. Branching, Review-Routinen und ein strukturierter Build-Prozess wurden etabliert. So konnten Mathematiker mit grundlegenden Programmierkenntnissen Algorithmusmodule beisteuern, ohne die Hauptcodebasis zu destabilisieren."
         },
         {
           "type": "p",
@@ -155,7 +155,7 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "So hat Vionix gearbeitet",
+      "heading": "Kontext der Umsetzung",
       "blocks": [
         {
           "type": "p",

@@ -14,7 +14,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Liefermodell: Principal-geführtes Engagement (Stefan, Gründer und Principal Consultant). Kunde: Atlas Heavy Industries (deutsche Regionseinheit eines globalen Netzwerks für Schwertechnik). Kontext: In den Zentrallagern wurden hohe Volumina eingehender Ersatzteile verarbeitet. Robuste Windows-CE-Handscanner waren bereits beschafft, aber die notwendige Software-Infrastruktur fehlte."
+          "text": "Umsetzungskontext: Mobile-Warehouse-Enablement, fachlich geführt von Stefan innerhalb der vendor-seitigen Delivery-Organisation. Kunde: Atlas Heavy Industries (deutsche Regionseinheit eines globalen Netzwerks für Schwertechnik). Kontext: In den Zentrallagern wurden hohe Volumina eingehender Ersatzteile verarbeitet. Robuste Windows-CE-Handscanner waren bereits beschafft, aber die notwendige Software-Infrastruktur fehlte."
         }
       ]
     },
@@ -57,9 +57,9 @@
         {
           "type": "ordered",
           "items": [
-            "Stakeholder-Alignment: Vionix moderierte mit der IT-Leitung des Kunden die Konzeptphase und definierte den Zielablauf. Entscheidend war die frühe Einbindung des ERP-Managements, um die anfängliche Blockade in Support-Einheiten zu umgehen und die Schnittstelle verbindlich festzulegen.",
-            "Robuste Protokollwahl: Vionix setzte auf SOAP. Unter den Rahmenbedingungen des NET-Compact-Frameworks lieferte dies strikte Typisierung und saubere Integration mit dem bestehenden ERP-Technologiestack.",
-            "Gezielte Umsetzung: Vionix entwickelte einen maßgeschneiderten Client in C# auf Basis des NET-Frameworks 3.5, optimiert auf die begrenzten Ressourcen von Windows-CE-Geräten.",
+            "Stakeholder-Alignment: Stefan moderierte mit der IT-Leitung des Kunden die Konzeptphase und definierte den Zielablauf. Entscheidend war die frühe Einbindung des ERP-Managements, um die anfängliche Blockade in Support-Einheiten zu umgehen und die Schnittstelle verbindlich festzulegen.",
+            "Robuste Protokollwahl: Stefan setzte auf SOAP. Unter den Rahmenbedingungen des NET-Compact-Frameworks lieferte dies strikte Typisierung und saubere Integration mit dem bestehenden ERP-Technologiestack.",
+            "Gezielte Umsetzung: Stefan entwickelte einen maßgeschneiderten Client in C# auf Basis des NET-Frameworks 3.5, optimiert auf die begrenzten Ressourcen von Windows-CE-Geräten.",
             "Zero-Training-UX: Die Benutzeroberfläche wurde minimalistisch und linear gestaltet, sodass der Scan-und-Buchen-Ablauf ohne Systemwissen bedienbar blieb."
           ]
         }
@@ -99,7 +99,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Einfachheit vor Funktionsfülle Durch radikale Reduktion der mobilen Oberfläche auf den Kernprozess senkte Vionix die Einstiegshürde für Lagerpersonal. Die Anwendung versuchte nicht, das ERP zu replizieren, sondern exponierte nur die benötigte Funktion Wareneingang."
+          "text": "Einfachheit vor Funktionsfülle Durch radikale Reduktion der mobilen Oberfläche auf den Kernprozess senkte Stefan die Einstiegshürde für Lagerpersonal. Die Anwendung versuchte nicht, das ERP zu replizieren, sondern exponierte nur die benötigte Funktion Wareneingang."
         },
         {
           "type": "p",
@@ -109,11 +109,11 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "So hat Vionix gearbeitet",
+      "heading": "Kontext der Umsetzung",
       "blocks": [
         {
           "type": "p",
-          "text": "Umgang mit Multi-Vendor-Politik Das Projekt hing von Kooperation mit dem ERP-Anbieter ab, dessen Supportseite Dritt-Hardware anfänglich ablehnte. Durch Eskalation der Architekturgespräche auf Management-Ebene stellte Vionix die notwendige Zusammenarbeit sicher und konnte die Backend-Wartung später vollständig an den Anbieter übergeben."
+          "text": "Umgang mit Multi-Vendor-Politik Das Projekt hing von Kooperation mit dem ERP-Anbieter ab, dessen Supportseite Dritt-Hardware anfänglich ablehnte. Durch Eskalation der Architekturgespräche auf Management-Ebene stellte Stefan die notwendige Zusammenarbeit sicher und konnte die Backend-Wartung später vollständig an den Anbieter übergeben."
         }
       ]
     }

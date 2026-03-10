@@ -14,7 +14,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Delivery model: Principal-led engagement (Stefan, Founder & Principal Consultant) Client: Nordlicht Retail (German fashion retailer) Trigger: Daily inventory and sales data from stores frequently failed to arrive at headquarters, disrupting stock planning and replenishment Engagement Type: Infrastructure rollout support + custom monitoring solution Timeline: Multi-phase (VPN deployment -> monitoring implementation -> failover capability)"
+          "text": "Delivery context: Earlier independent infrastructure and monitoring work led by Stefan. Client: Nordlicht Retail (German fashion retailer). Trigger: Daily inventory and sales data from stores frequently failed to arrive at headquarters, disrupting stock planning and replenishment. Engagement type: Infrastructure rollout support plus custom monitoring solution. Timeline: Multi-phase (VPN deployment -> monitoring implementation -> failover capability)."
         }
       ]
     },
@@ -33,7 +33,7 @@
         {
           "type": "list",
           "items": [
-            "Fragile legacy POS software (visual object-based architecture, not developed by Vionix) that initiated transfers unreliably",
+            "Fragile legacy POS software (visual object-based architecture) that initiated transfers unreliably",
             "Inconsistent telecoms infrastructure: DSL outages, phone line failures, physical disconnections (cables unplugged or damaged)",
             "No visibility into failures: headquarters only discovered missing data the following morning, when planning decisions were already delayed"
           ]
@@ -64,11 +64,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "The client independently decided to deploy a nationwide corporate VPN with dedicated hardware via Deutsche Telekom to stabilise connectivity. Telekom required a competent technical partner on the client side, and Vionix was brought in to execute the rollout."
+          "text": "The client independently decided to deploy a nationwide corporate VPN with dedicated hardware via Deutsche Telekom to stabilise connectivity. Telekom required a competent technical counterpart on the client side, and Stefan took on the rollout and technical coordination work."
         },
         {
           "type": "p",
-          "text": "What Vionix Did:"
+          "text": "What Stefan Did:"
         },
         {
           "type": "ordered",
@@ -84,11 +84,11 @@
         },
         {
           "type": "p",
-          "text": "Recognising that connectivity alone was insufficient, Vionix implemented a proactive monitoring and control layer."
+          "text": "Recognising that connectivity alone was insufficient, Stefan implemented a proactive monitoring and control layer."
         },
         {
           "type": "p",
-          "text": "What Vionix Built:"
+          "text": "What Stefan Built:"
         },
         {
           "type": "ordered",
@@ -159,14 +159,14 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "How Vionix Worked",
+      "heading": "Execution Context",
       "blocks": [
         {
           "type": "list",
           "items": [
-            "Partner coordination: Worked alongside Deutsche Telekom to execute the nationwide rollout, with Vionix handling on-site configuration and Telekom managing network infrastructure",
+            "Partner coordination: Worked alongside Deutsche Telekom to execute the nationwide rollout, with Stefan handling on-site configuration and Telekom managing network infrastructure",
             "Incremental delivery: Deployed VPN first, then added monitoring and failover capabilities once the gap became clear",
-            "Training and handover: Provided operational training so headquarters staff could independently monitor, diagnose, and trigger retrievals without escalating to Vionix"
+            "Training and handover: Provided operational training so headquarters staff could independently monitor, diagnose, and trigger retrievals without external escalation"
           ]
         }
       ]

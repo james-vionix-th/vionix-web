@@ -14,7 +14,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Delivery model: Principal-led engagement (Stefan, Founder & Principal Consultant) Client: Helios RF Systems (German RF systems manufacturer)"
+          "text": "Execution context: Cross-platform product rebuild led by Stefan within the manufacturer's software function. Client: Helios RF Systems (German RF systems manufacturer)."
         },
         {
           "type": "p",
@@ -64,7 +64,7 @@
         },
         {
           "type": "p",
-          "text": "2. Team Assembly & Coordination Two additional developers were hired to work alongside the hardware and firmware teams. The engagement included technical leadership - not just code migration, but establishing coding standards, review processes, and architectural patterns."
+          "text": "2. Team Assembly & Coordination Two additional developers were hired to work alongside the hardware and firmware teams. The rebuild included technical leadership - not just code migration, but establishing coding standards, review processes, and architectural patterns."
         },
         {
           "type": "p",
@@ -133,7 +133,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Architectural Discipline Over Quick Wins Rather than patching the legacy system, the engagement prioritized long-term maintainability: modular boundaries, documented patterns, and test-friendly abstractions. This upfront investment paid dividends in feature velocity once the foundation was stable."
+          "text": "Architectural Discipline Over Quick Wins Rather than patching the legacy system, the rebuild prioritized long-term maintainability: modular boundaries, documented patterns, and test-friendly abstractions. This upfront investment paid dividends in feature velocity once the foundation was stable."
         },
         {
           "type": "p",
@@ -147,11 +147,11 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "How Vionix Worked",
+      "heading": "Execution Context",
       "blocks": [
         {
           "type": "p",
-          "text": "The engagement combined hands-on development with team enablement. Leadership responsibilities included hiring, code review, architectural decisions, and coordination with hardware/firmware engineers. The project ran approximately one year from initial scoping to production release. At handover, the internal team operated autonomously with documented source code, standardized patterns, and a clear path for future extensions."
+          "text": "Stefan combined hands-on development with technical leadership across architecture, hiring support, code review, team coordination, and alignment with hardware and firmware engineers. The project ran approximately one year from initial restructuring through production release. At handover, the internal team operated autonomously with documented source code, standardized patterns, and a clear path for future extensions."
         }
       ]
     }

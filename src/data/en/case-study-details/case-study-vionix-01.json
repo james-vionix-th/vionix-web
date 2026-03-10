@@ -14,11 +14,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Delivery model: Principal-led engagement (Stefan, Founder & Principal Consultant) Client: Nordlicht Retail (German fashion retailer)"
+          "text": "Delivery context: Earlier independent retail systems work led by Stefan. Client: Nordlicht Retail (German fashion retailer)."
         },
         {
           "type": "p",
-          "text": "A Major German fashion retailer with 80+ outlets was paralysed by a legacy POS reporting system. Daily distribution planning required reports that took 4 hours to run, locked the entire headquarters IT infrastructure, and crashed regularly. The engagement restored operational stability in 3 weeks and rebuilt the relationship between IT and Sales leadership."
+          "text": "A Major German fashion retailer with 80+ outlets was paralysed by a legacy POS reporting system. Daily distribution planning required reports that took 4 hours to run, locked the entire headquarters IT infrastructure, and crashed regularly. The intervention restored operational stability in 3 weeks and rebuilt the relationship between IT and Sales leadership."
         }
       ]
     },
@@ -159,11 +159,11 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "How Vionix Worked",
+      "heading": "Execution Context",
       "blocks": [
         {
           "type": "p",
-          "text": "The engagement was structured as a 3-week intensive intervention:"
+          "text": "Stefan led a focused 3-week intervention:"
         },
         {
           "type": "list",

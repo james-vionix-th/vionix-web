@@ -14,11 +14,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Liefermodell: Principal-geführtes Engagement (Stefan, Gründer und Principal Consultant). Kunde: Nordlicht Retail (deutscher Modehändler)."
+          "text": "Lieferkontext: Frühere unabhängige Retail-Systemarbeit, fachlich geführt von Stefan. Kunde: Nordlicht Retail (deutscher Modehändler)."
         },
         {
           "type": "p",
-          "text": "Ein großer deutscher Modehändler mit über 80 Filialen wurde von einem Legacy-POS-Reporting-System ausgebremst. Für die tägliche Warenverteilung mussten Berichte laufen, die bis zu 4 Stunden dauerten, die gesamte IT der Zentrale blockierten und regelmäßig abstürzten. Das Engagement stellte die operative Stabilität innerhalb von 3 Wochen wieder her und reparierte die Zusammenarbeit zwischen IT- und Vertriebsleitung."
+          "text": "Ein großer deutscher Modehändler mit über 80 Filialen wurde von einem Legacy-POS-Reporting-System ausgebremst. Für die tägliche Warenverteilung mussten Berichte laufen, die bis zu 4 Stunden dauerten, die gesamte IT der Zentrale blockierten und regelmäßig abstürzten. Die Intervention stellte die operative Stabilität innerhalb von 3 Wochen wieder her und reparierte die Zusammenarbeit zwischen IT- und Vertriebsleitung."
         }
       ]
     },
@@ -159,11 +159,11 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "So hat Vionix gearbeitet",
+      "heading": "Kontext der Umsetzung",
       "blocks": [
         {
           "type": "p",
-          "text": "Das Engagement war als dreiwöchige Intensivintervention aufgebaut:"
+          "text": "Stefan führte eine fokussierte dreiwöchige Intensivintervention durch:"
         },
         {
           "type": "list",

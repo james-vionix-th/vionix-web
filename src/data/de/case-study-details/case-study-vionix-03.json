@@ -14,7 +14,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Liefermodell: Principal-geführtes Engagement (Stefan, Gründer und Principal Consultant). Kunde: Nordlicht Retail (deutscher Modehändler). Skalierung: über 80 Filialen mit 3 bis 6 Mitarbeitenden pro Standort. Kontext: Jährliche Inventur-Audits für Versicherungs- und Regulatorik-Compliance."
+          "text": "Lieferkontext: Frühere unabhängige Retail-Systemarbeit, fachlich geführt von Stefan. Kunde: Nordlicht Retail (deutscher Modehändler). Skalierung: über 80 Filialen mit 3 bis 6 Mitarbeitenden pro Standort. Kontext: Jährliche Inventur-Audits für Versicherungs- und Regulatorik-Compliance."
         }
       ]
     },
@@ -56,11 +56,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Vionix wechselte innerhalb von etwa einem Monat von der Analyse in die produktive Einführung, mit klarem Fokus auf Stabilität und Datenintegrität."
+          "text": "Stefan wechselte innerhalb von etwa einem Monat von der Analyse in die produktive Einführung, mit klarem Fokus auf Stabilität und Datenintegrität."
         },
         {
           "type": "p",
-          "text": "1. Re-Plattforming auf C# und SQL Vionix löste sich von der instabilen CA-Visual-Objects-Architektur. Die neue Lösung wurde in C# entwickelt und ersetzte dateibasierte Abhängigkeiten durch Microsoft SQL Server Express. Damit entstand transaktionale Integrität: Daten wurden vor jeder Übertragung zunächst sicher lokal persistiert."
+          "text": "1. Re-Plattforming auf C# und SQL Stefan löste sich von der instabilen CA-Visual-Objects-Architektur. Die neue Lösung wurde in C# entwickelt und ersetzte dateibasierte Abhängigkeiten durch Microsoft SQL Server Express. Damit entstand transaktionale Integrität: Daten wurden vor jeder Übertragung zunächst sicher lokal persistiert."
         },
         {
           "type": "p",
@@ -68,11 +68,11 @@
         },
         {
           "type": "p",
-          "text": "3. Hardware- und Reporting-Integration Vionix integrierte Handscanner direkt für schnelle Datenerfassung. Entscheidend war außerdem die Einführung von List und Label für präzise Ausdrucke vor Ort. Filialleitungen erhielten damit sofort eine belastbare Hardcopy-Prüfung ihrer digitalen Meldung."
+          "text": "3. Hardware- und Reporting-Integration Stefan integrierte Handscanner direkt für schnelle Datenerfassung. Entscheidend war außerdem die Einführung von List und Label für präzise Ausdrucke vor Ort. Filialleitungen erhielten damit sofort eine belastbare Hardcopy-Prüfung ihrer digitalen Meldung."
         },
         {
           "type": "p",
-          "text": "4. Trust-Rollout im Hyper-Care-Modus Um die Vertrauenslücke zu schließen, begleiteten Vionix-Berater die Teams in den ersten Nachtschicht-Inventuren physisch vor Ort. Vionix reiste dafür durch Deutschland und unterstützte die ersten fünf Standorte persönlich."
+          "text": "4. Trust-Rollout im Hyper-Care-Modus Um die Vertrauenslücke zu schließen, begleitete Stefan die Teams in den ersten Nachtschicht-Inventuren physisch vor Ort. Dafür reiste er durch Deutschland und unterstützte die ersten fünf Standorte persönlich."
         }
       ]
     },
@@ -111,17 +111,17 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Präsenz als Feature Der technische Wechsel auf C# und SQL Server löste die Stabilitätsprobleme, aber der Projekterfolg wurde über die Einführungsstrategie entschieden. Durch physische Präsenz in den kritischen Nachtschichten absorbierte Vionix die Kundennervosität und übernahm sichtbar Verantwortung. Das System bewies sich im Feld, nicht nur im Testlabor, und der Kunde gewann nahezu sofort wieder operative Eigenständigkeit."
+          "text": "Präsenz als Feature Der technische Wechsel auf C# und SQL Server löste die Stabilitätsprobleme, aber der Projekterfolg wurde über die Einführungsstrategie entschieden. Durch physische Präsenz in den kritischen Nachtschichten übernahm Stefan sichtbar Verantwortung. Das System bewies sich im Feld, nicht nur im Testlabor, und der Kunde gewann nahezu sofort wieder operative Eigenständigkeit."
         }
       ]
     },
     {
       "id": "how-vionix-worked",
-      "heading": "So hat Vionix gearbeitet",
+      "heading": "Kontext der Umsetzung",
       "blocks": [
         {
           "type": "p",
-          "text": "Zusammenarbeit und Training Vionix arbeitete direkt mit Geschäftsführung und Teamleitungen an der Prozessgestaltung. Der gesamte Zyklus wurde aus einer Hand geführt: von Legacy-Analyse und Interviews bis zum Endanwendertraining, damit die Technologie tatsächlich zur operativen Realität in den Filialen passt."
+          "text": "Zusammenarbeit und Training Stefan arbeitete direkt mit Geschäftsführung und Teamleitungen an der Prozessgestaltung. Der gesamte Zyklus wurde aus einer Hand geführt: von Legacy-Analyse und Interviews bis zum Endanwendertraining, damit die Technologie tatsächlich zur operativen Realität in den Filialen passt."
         }
       ]
     }

@@ -14,7 +14,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Liefermodell: Principal-geführtes Engagement (Stefan, Gründer und Principal Consultant). Kunde: Nordlicht Retail (deutscher Modehändler). Auslöser: Tägliche Bestands- und Verkaufsdaten aus Filialen kamen häufig nicht in der Zentrale an, was Disposition und Nachversorgung störte. Engagement-Typ: Infrastruktur-Rollout-Unterstützung plus individuelle Monitoring-Lösung. Zeitleiste: mehrphasig (VPN-Einführung, danach Monitoring-Implementierung und Failover-Fähigkeit)."
+          "text": "Lieferkontext: Frühere unabhängige Infrastruktur- und Monitoring-Arbeit, fachlich geführt von Stefan. Kunde: Nordlicht Retail (deutscher Modehändler). Auslöser: Tägliche Bestands- und Verkaufsdaten aus Filialen kamen häufig nicht in der Zentrale an, was Disposition und Nachversorgung störte. Leistungstyp: Infrastruktur-Rollout-Unterstützung plus individuelle Monitoring-Lösung. Zeitleiste: mehrphasig (VPN-Einführung, danach Monitoring-Implementierung und Failover-Fähigkeit)."
         }
       ]
     },
@@ -33,7 +33,7 @@
         {
           "type": "list",
           "items": [
-            "Fragile Legacy-POS-Software (objektbasiert, nicht von Vionix entwickelt), die Transfers unzuverlässig auslöste",
+            "Fragile Legacy-POS-Software (objektbasiert), die Transfers unzuverlässig auslöste",
             "Uneinheitliche Telekommunikationsinfrastruktur: DSL-Ausfälle, Leitungsstörungen, physische Trennungen (Kabel gezogen oder beschädigt)",
             "Keine Transparenz über Störungen: Die Zentrale bemerkte fehlende Daten oft erst am nächsten Morgen, wenn Planungsentscheidungen bereits verzögert waren"
           ]
@@ -64,11 +64,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Der Kunde entschied eigenständig, gemeinsam mit der Deutschen Telekom ein bundesweites Unternehmens-VPN mit dedizierter Hardware aufzubauen, um die Konnektivität zu stabilisieren. Für die Umsetzung benötigte Telekom einen technisch belastbaren Partner auf Kundenseite, und Vionix übernahm diese Rolle."
+          "text": "Der Kunde entschied eigenständig, gemeinsam mit der Deutschen Telekom ein bundesweites Unternehmens-VPN mit dedizierter Hardware aufzubauen, um die Konnektivität zu stabilisieren. Für die Umsetzung benötigte Telekom einen technisch belastbaren Ansprechpartner auf Kundenseite, und Stefan übernahm diese Rolle."
         },
         {
           "type": "p",
-          "text": "Was Vionix umgesetzt hat:"
+          "text": "Was Stefan umgesetzt hat:"
         },
         {
           "type": "ordered",
@@ -84,11 +84,11 @@
         },
         {
           "type": "p",
-          "text": "Da reine Konnektivität nicht ausreichte, implementierte Vionix zusätzlich eine proaktive Monitoring- und Steuerungsschicht."
+          "text": "Da reine Konnektivität nicht ausreichte, implementierte Stefan zusätzlich eine proaktive Monitoring- und Steuerungsschicht."
         },
         {
           "type": "p",
-          "text": "Was Vionix gebaut hat:"
+          "text": "Was Stefan gebaut hat:"
         },
         {
           "type": "ordered",
@@ -159,14 +159,14 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "So hat Vionix gearbeitet",
+      "heading": "Kontext der Umsetzung",
       "blocks": [
         {
           "type": "list",
           "items": [
-            "Partnerkoordination: Gemeinsame Umsetzung mit der Deutschen Telekom, Vionix verantwortete die technische Konfiguration vor Ort, Telekom die Netz-Infrastruktur",
+            "Partnerkoordination: Gemeinsame Umsetzung mit der Deutschen Telekom, Stefan verantwortete die technische Konfiguration vor Ort, Telekom die Netz-Infrastruktur",
             "Inkrementelle Lieferung: Zuerst VPN eingeführt, anschließend Monitoring- und Failover-Fähigkeiten ergänzt, sobald die Lücke eindeutig war",
-            "Training und Übergabe: Operatives Enablement der Zentrale, damit Monitoring, Diagnose und Datenabruf ohne Eskalation an Vionix funktionieren"
+            "Training und Übergabe: Operatives Enablement der Zentrale, damit Monitoring, Diagnose und Datenabruf ohne externe Eskalation funktionieren"
           ]
         }
       ]

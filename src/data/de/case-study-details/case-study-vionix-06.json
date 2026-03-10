@@ -14,7 +14,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Liefermodell: Principal-geführtes Engagement (Stefan, Gründer und Principal Consultant). Kunde: Helios RF Systems (deutscher Hersteller von HF-Systemen)."
+          "text": "Umsetzungskontext: Cross-Plattform-Produkt-Neuaufbau, fachlich geführt von Stefan innerhalb der Softwarefunktion des Herstellers. Kunde: Helios RF Systems (deutscher Hersteller von HF-Systemen)."
         },
         {
           "type": "p",
@@ -82,7 +82,7 @@
         },
         {
           "type": "p",
-          "text": "4. Eigene FTDI-Kommunikationsschicht Um Low-Level-USB-Kommunikation zu abstrahieren, entwickelte Vionix einen internen Qt-Wrapper für die FTDI-Schnittstelle mit sauberer API für die Anwendungsebene."
+          "text": "4. Eigene FTDI-Kommunikationsschicht Um Low-Level-USB-Kommunikation zu abstrahieren, entwickelte Stefan einen internen Qt-Wrapper für die FTDI-Schnittstelle mit sauberer API für die Anwendungsebene."
         },
         {
           "type": "p",
@@ -147,7 +147,7 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "So hat Vionix gearbeitet",
+      "heading": "Kontext der Umsetzung",
       "blocks": [
         {
           "type": "p",

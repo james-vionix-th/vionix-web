@@ -14,7 +14,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Delivery model: Principal-led engagement (Stefan, Founder & Principal Consultant) Client: Canopy Metrics (German forestry analytics venture) Industry: Environmental science / forestry technology Audience: German regional forestry agencies (Bundeslander) Timeline: ~1 year Scope: Migrate novel forestry algorithms from university scripting tools to a deployable Windows desktop application"
+          "text": "Execution context: Productization work led by Stefan within a small forestry-software team. Client context: Canopy Metrics (German forestry analytics venture). Industry: Environmental science / forestry technology. Audience: German regional forestry agencies (Bundeslander). Timeline: ~1 year. Scope: Migrate novel forestry algorithms from university scripting tools to a deployable Windows desktop application."
         }
       ]
     },
@@ -127,7 +127,7 @@
         },
         {
           "type": "p",
-          "text": "However, the project did not reach commercial release. The researcher shifted focus to expanding the method with new ideas rather than finalising the existing product for procurement. After one year, when the software was technically functional but commercialisation remained indefinitely deferred, the engagement concluded as the contract term ended."
+          "text": "However, the project did not reach commercial release. The researcher shifted focus to expanding the method with new ideas rather than finalising the existing product for procurement. After one year, when the software was technically functional but commercialisation remained indefinitely deferred, the project concluded as the contract term ended."
         }
       ]
     },
@@ -149,13 +149,13 @@
         },
         {
           "type": "p",
-          "text": "Modular, maintainable architecture: The codebase was structured for handover. When the engagement ended, the software was not abandoned - it was ready for another developer to continue, should the researcher choose to pursue productisation later."
+          "text": "Modular, maintainable architecture: The codebase was structured for handover. When the project ended, the software was not abandoned - it was ready for another developer to continue, should the researcher choose to pursue productisation later."
         }
       ]
     },
     {
       "id": "how-vionix-worked",
-      "heading": "How Vionix Worked",
+      "heading": "Execution Context",
       "blocks": [
         {
           "type": "p",
@@ -171,7 +171,7 @@
         },
         {
           "type": "p",
-          "text": "Handover: The engagement concluded when the contract term ended and commercialisation stalled due to scope expansion. A clean, version-controlled codebase and handover documentation were left in place, enabling continuity if the project resumed under new development leadership."
+          "text": "Handover: The project concluded when the contract term ended and commercialisation stalled due to scope expansion. A clean, version-controlled codebase and handover documentation were left in place, enabling continuity if the work resumed under new development leadership."
         }
       ]
     }

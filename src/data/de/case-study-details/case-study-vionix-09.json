@@ -18,7 +18,7 @@
         },
         {
           "type": "p",
-          "text": "Liefermodell: Principal-geführtes Engagement (Stefan, Gründer und Principal Consultant). Kunde: Ironbridge ERP (deutscher ERP-Anbieter für Maschinenhandel und Vermietung)."
+          "text": "Umsetzungskontext: Interne Modernisierungsinitiative, fachlich geführt von Stefan innerhalb einer Legacy-ERP-Organisation. Kundenkontext: Ironbridge ERP (deutscher ERP-Anbieter für Maschinenhandel und Vermietung)."
         }
       ]
     },
@@ -76,7 +76,7 @@
         },
         {
           "type": "p",
-          "text": "4. Individuelle Entwicklungsumgebungen aufbauen Das gemeinsame Terminalserver-Modell wurde beendet. Jeder Entwickler erhielt einen eigenen lokalen Arbeitsplatz. Pull Requests und Merges ersetzten chaotische Paralleländerungen im geteilten Verzeichnis. Dafür war intensive Abstimmung mit dem Management nötig, das IP-Diebstahl fürchtete. Vionix zeigte, dass Copy-and-paste den Terminalserver hierfür ohnehin wirkungslos macht."
+          "text": "4. Individuelle Entwicklungsumgebungen aufbauen Das gemeinsame Terminalserver-Modell wurde beendet. Jeder Entwickler erhielt einen eigenen lokalen Arbeitsplatz. Pull Requests und Merges ersetzten chaotische Paralleländerungen im geteilten Verzeichnis. Dafür war intensive Abstimmung mit dem Management nötig, das IP-Diebstahl fürchtete. Stefan zeigte, dass Copy-and-paste den Terminalserver hierfür ohnehin wirkungslos macht."
         },
         {
           "type": "p",
@@ -141,7 +141,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Vionix kämpfte nicht ideologisch gegen Legacy, sondern stabilisierte zuerst. Versionskontrolle und Umgebungsisolation erzeugten Verantwortung und psychologische Sicherheit, bevor tiefgreifende Methodenänderungen gefordert wurden."
+          "text": "Stefan kämpfte nicht ideologisch gegen Legacy, sondern stabilisierte zuerst. Versionskontrolle und Umgebungsisolation erzeugten Verantwortung und psychologische Sicherheit, bevor tiefgreifende Methodenänderungen gefordert wurden."
         },
         {
           "type": "p",
@@ -149,7 +149,7 @@
         },
         {
           "type": "p",
-          "text": "Vionix holte Entwickler dort ab, wo sie standen. Statt erzwungener OOP-Umstellung lief die Modernisierung über nutzbare Abstraktionen aus dem Team heraus. Wert wurde praktisch erfahrbar, nicht ideologisch verordnet."
+          "text": "Stefan holte Entwickler dort ab, wo sie standen. Statt erzwungener OOP-Umstellung lief die Modernisierung über nutzbare Abstraktionen aus dem Team heraus. Wert wurde praktisch erfahrbar, nicht ideologisch verordnet."
         },
         {
           "type": "p",
@@ -159,11 +159,11 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "So hat Vionix gearbeitet",
+      "heading": "Kontext der Umsetzung",
       "blocks": [
         {
           "type": "p",
-          "text": "Das Engagement lief zwei Jahre mit einem einzelnen eingebetteten Vionix-Berater in aktiver Restrukturierungsrolle. Veränderungen wurden bewusst schrittweise mit Trainingsphasen umgesetzt, damit das Team jeden Wechsel verankern konnte. Das Projekt endete einvernehmlich, als das Unternehmen von einer größeren Organisation übernommen wurde, die den Betrieb eigenständig fortführen konnte."
+          "text": "Die interne Transformationsarbeit lief rund zwei Jahre unter Stefans fachlicher Führung und verband aktive Umsetzung, Restrukturierung von Arbeitsweisen und Entwicklertraining. Veränderungen wurden bewusst schrittweise mit Trainingsphasen umgesetzt, damit das Team jeden Wechsel verankern konnte. Das Projekt endete, als das Unternehmen von einer größeren Organisation übernommen wurde, die den Betrieb eigenständig fortführen konnte."
         }
       ]
     }

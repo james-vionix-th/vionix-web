@@ -14,11 +14,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Delivery model: Principal-led engagement (Stefan, Founder & Principal Consultant) Client: Nordlicht Retail (German fashion retailer)"
+          "text": "Delivery context: Earlier independent retail infrastructure work led by Stefan. Client: Nordlicht Retail (German fashion retailer)."
         },
         {
           "type": "p",
-          "text": "A Major German fashion retailer with 80+ outlets faced escalating point-of-sale system failures caused by textile dust - a problem that grew from occasional annoyance to daily crisis as the business scaled. Vionix redesigned the hardware stack, collaborated with interior fitters to integrate ventilated enclosures into sales counters, and established annual deep-cleaning cycles that reduced failures from multiple per week to 1-2 per quarter."
+          "text": "A Major German fashion retailer with 80+ outlets faced escalating point-of-sale system failures caused by textile dust - a problem that grew from occasional annoyance to daily crisis as the business scaled. Stefan redesigned the hardware stack, collaborated with interior fitters to integrate ventilated enclosures into sales counters, and established annual deep-cleaning cycles that reduced failures from multiple per week to 1-2 per quarter."
         }
       ]
     },
@@ -28,7 +28,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Clothing retail generates constant airborne dust from fabric handling, folding, and customer traffic. For years, the retailer off-the-shelf desktop PCs - equipped with barcode scanners, receipt printers, cash drawers, and network cards - sat exposed on or beneath counters. When the chain operated 20 stores, a single failure per month was tolerable. But as the network grew to 80+ locations, failures multiplied linearly with store count, then accelerated as aging hardware compounded dust ingress. By the time Vionix was engaged, multiple terminals were failing daily or weekly across the estate."
+          "text": "Clothing retail generates constant airborne dust from fabric handling, folding, and customer traffic. For years, the retailer off-the-shelf desktop PCs - equipped with barcode scanners, receipt printers, cash drawers, and network cards - sat exposed on or beneath counters. When the chain operated 20 stores, a single failure per month was tolerable. But as the network grew to 80+ locations, failures multiplied linearly with store count, then accelerated as aging hardware compounded dust ingress. By the time Stefan took on the work, multiple terminals were failing daily or weekly across the estate."
         },
         {
           "type": "p",
@@ -57,7 +57,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "1. Set Realistic Expectations Vionix opened the engagement by explaining that even hardened systems will fail occasionally in dusty environments, and that the goal was to minimise, not eliminate, downtime."
+          "text": "1. Set Realistic Expectations Stefan opened the work by explaining that even hardened systems will fail occasionally in dusty environments, and that the goal was to minimise, not eliminate, downtime."
         },
         {
           "type": "p",
@@ -97,7 +97,7 @@
         },
         {
           "type": "p",
-          "text": "7. Annual Deep-Cleaning Protocol Established a scheduled maintenance cycle where a technician visits each store once per year to disassemble terminals, deep-clean internals, replace filters, verify cable security, and confirm enclosure integrity. Initially performed by Vionix staff (50/50 split between the lead and a colleague), later transitioned to a trained partner (80%) with Vionix oversight (20%)."
+          "text": "7. Annual Deep-Cleaning Protocol Established a scheduled maintenance cycle where a technician visits each store once per year to disassemble terminals, deep-clean internals, replace filters, verify cable security, and confirm enclosure integrity. The work was initially performed by Stefan and a colleague, then transitioned to a trained partner who handled most execution once the process was stable."
         }
       ]
     },
@@ -126,7 +126,7 @@
             "Failure rate drop: From multiple failures per week (daily at peak) to 1-2 failures per quarter across the entire estate",
             "Operational stability: Eliminated manual transaction fallback, calculation errors, incorrect change, and inventory sync blackouts",
             "Morale improvement: Cashiers became less hostile toward the POS system. Head-office planners regained real-time visibility into stock levels",
-            "Client confidence: The retailer gained trust in Vionix as a partner capable of solving systemic infrastructure problems, not just firefighting incidents"
+            "Client confidence: The retailer regained trust in the technical response and in Stefan's ability to solve systemic infrastructure problems, not just firefight incidents"
           ]
         }
       ]
@@ -155,11 +155,11 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "How Vionix Worked",
+      "heading": "Execution Context",
       "blocks": [
         {
           "type": "p",
-          "text": "Vionix led the initial assessment, hardening design, and protocol development, then trained an internal colleague who gradually assumed majority ownership of maintenance execution. The counter redesign required close collaboration with the retailer interior design vendors. Technical constraints (airflow, cable routing, filter access) had to be translated into aesthetic and ergonomic counter layouts. Maintenance was eventually handed to a specialist partner under Vionix supervision, ensuring long-term sustainability without permanent dependency."
+          "text": "Stefan led the initial assessment, hardening design, rollout approach, and maintenance protocol for the POS environment. The counter redesign required close collaboration with interior-design vendors, translating airflow, cable-routing, and filter-access constraints into workable store-counter layouts. Routine maintenance was later handed to a specialist partner, preserving the design standards without creating permanent dependency on one person."
         }
       ]
     }

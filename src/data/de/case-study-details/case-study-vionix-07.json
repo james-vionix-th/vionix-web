@@ -14,7 +14,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Liefermodell: Principal-geführtes Engagement (Stefan, Gründer und Principal Consultant). Kunde: Skyline Access (deutsche Vermietgruppe für Hubarbeitsbühnen). Flottengröße: über 1.000 Maschinen an bundesweiten Standorten. Kernsystem: InterSystems-Caché-Datenbank für Vermietbestand, Wartungsfenster und Kundenaufträge. Projektdauer: 3 Monate (Architektur, Umsetzung und Go-live)."
+          "text": "Umsetzungskontext: Kundennahe Integrationsarbeit, fachlich geführt von Stefan innerhalb der Delivery-Organisation des ERP-Anbieters. Kunde: Skyline Access (deutsche Vermietgruppe für Hubarbeitsbühnen). Flottengröße: über 1.000 Maschinen an bundesweiten Standorten. Kernsystem: InterSystems-Caché-Datenbank für Vermietbestand, Wartungsfenster und Kundenaufträge. Projektdauer: 3 Monate (Architektur, Umsetzung und Go-live)."
         }
       ]
     },
@@ -24,7 +24,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Ein großer deutscher Vermieter hatte eine externe Webagentur mit dem Aufbau eines Online-Buchungsportals beauftragt. Das Projekt war weit fortgeschritten, Design und Nutzerführung funktionierten, ein Launch-Termin war fix. Was fehlte, war die Verbindung zum produktiven Vermiet-Back-End. Die Webagentur hatte den Shop isoliert entwickelt, ohne Sicht auf bestehende IT-Infrastruktur, Datenbankarchitektur und API-Anforderungen. Als der Kunde Vionix zum Verbinden der Systeme hinzuzog, wurde klar: Integration war nicht nur vertagt, sie war nie belastbar spezifiziert worden."
+          "text": "Ein großer deutscher Vermieter hatte eine externe Webagentur mit dem Aufbau eines Online-Buchungsportals beauftragt. Das Projekt war weit fortgeschritten, Design und Nutzerführung funktionierten, ein Launch-Termin war fix. Was fehlte, war die Verbindung zum produktiven Vermiet-Back-End. Die Webagentur hatte den Shop isoliert entwickelt, ohne Sicht auf bestehende IT-Infrastruktur, Datenbankarchitektur und API-Anforderungen. Als diese Integrationsaufgabe bei Stefan landete, wurde klar: Integration war nicht nur vertagt, sie war nie belastbar spezifiziert worden."
         }
       ]
     },
@@ -56,16 +56,16 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Vionix moderierte einen Drei-Parteien-Workshop (interne IT, Webagentur, Vionix), um die fehlende Integrationsschicht vollständig zu modellieren."
+          "text": "Stefan moderierte einen Drei-Parteien-Workshop (interne IT, Webagentur und ERP-seitiges Delivery-Team), um die fehlende Integrationsschicht vollständig zu modellieren."
         },
         {
           "type": "ordered",
           "items": [
-            "Infrastruktur-Assessment: Festgestellt wurde, dass weder öffentliche IP-Zuweisung noch DMZ-Topologie oder Firewall-Regeln für externe API-Exposition vorhanden waren. Vionix entwarf eine sichere Perimeter-Architektur mit dediziertem DMZ-Server für das CSP Gateway.",
+            "Infrastruktur-Assessment: Festgestellt wurde, dass weder öffentliche IP-Zuweisung noch DMZ-Topologie oder Firewall-Regeln für externe API-Exposition vorhanden waren. Stefan entwarf eine sichere Perimeter-Architektur mit dediziertem DMZ-Server für das CSP Gateway.",
             "Firewall- und Netzwerk-Hardening: Gemeinsam mit der internen IT wurden Enterprise-Firewall-Regeln, notwendige TCP-Portfreigaben und Netzsegmentierung zwischen öffentlichem Gateway und internem Caché-System umgesetzt.",
             "CSP-Gateway-Bereitstellung: Das InterSystems CSP Gateway wurde ausgerollt und abgesichert, um als HTTP-Brücke zwischen Webshop und Caché-Datenbank zu dienen.",
             "REST-API-Design: Ein REST-Endpunkt für Maschinenverfügbarkeit wurde implementiert. Die API-Logik berücksichtigte Maschinen-Gruppenersatz, Wartungsfenster, Distanzfilterung zum Einsatzort und gegengeprüfte Reservierungsdaten, um bereits gebuchte Maschinen zuverlässig auszuschließen.",
-            "Datenqualitäts-Feedbackloop: Während der Tests zeigte der Webshop inkonsistente Verfügbarkeiten. Die Analyse legte Legacy-Datenfehler offen, etwa als verfügbar markierte Maschinen mit geplanter Wartung. Vionix verfolgte die Ursachen bis zu historischen Erfassungsfehlern zurück und ermöglichte gezielte Bereinigung.",
+            "Datenqualitäts-Feedbackloop: Während der Tests zeigte der Webshop inkonsistente Verfügbarkeiten. Die Analyse legte Legacy-Datenfehler offen, etwa als verfügbar markierte Maschinen mit geplanter Wartung. Stefan verfolgte die Ursachen bis zu historischen Erfassungsfehlern zurück und ermöglichte gezielte Bereinigung.",
             "Übergabe und Wissenstransfer: Die interne IT erhielt Training zu Firewall-Betrieb, DMZ-Härtung, API-Monitoring und Sicherheitsauswirkungen öffentlicher Dienste."
           ]
         }
@@ -92,7 +92,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Der Webshop ging nach drei Monaten Integrationsarbeit termingerecht live. Vionix übergab Infrastruktur und API-Komponenten vollständig an die interne IT, die den laufenden Betrieb übernahm. Auch ohne nachgelagerte Adoptionsmetriken wurde ein strategischer Vertriebskanal freigeschaltet, relevant für ein Unternehmen mit über 40 Standorten im wettbewerbsintensiven deutschen Markt für Hubarbeitsbühnenvermietung."
+          "text": "Der Webshop ging nach drei Monaten Integrationsarbeit termingerecht live. Stefan übergab Infrastruktur und API-Komponenten an die aufnehmenden IT-Teams, die den laufenden Betrieb übernahmen. Auch ohne nachgelagerte Adoptionsmetriken wurde ein strategischer Vertriebskanal freigeschaltet, relevant für ein Unternehmen mit über 40 Standorten im wettbewerbsintensiven deutschen Markt für Hubarbeitsbühnenvermietung."
         }
       ]
     },
@@ -120,11 +120,11 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "So hat Vionix gearbeitet",
+      "heading": "Kontext der Umsetzung",
       "blocks": [
         {
           "type": "p",
-          "text": "Vionix arbeitete als technischer Vermittler zwischen Webagentur und interner IT und übersetzte Geschäftsanforderungen in belastbare Infrastrukturentscheidungen. Nach Architektur und Umsetzung der Integrationsschicht wurden alle Assets sowie Betriebswissen an das Kundenteam übergeben, sodass Betrieb und Weiterentwicklung eigenständig möglich waren."
+          "text": "Stefan arbeitete als technische Brücke zwischen Webagentur, internen Stakeholdern des Vermieters und der ERP-seitigen Delivery-Organisation. Nach Architektur und Umsetzung der Integrationsschicht wurden alle Assets sowie Betriebswissen an die aufnehmenden Teams übergeben, sodass Betrieb und Weiterentwicklung eigenständig möglich waren."
         }
       ]
     }

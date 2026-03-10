@@ -18,7 +18,7 @@
         },
         {
           "type": "p",
-          "text": "Liefermodell: Principal-geführtes Engagement (Stefan, Gründer und Principal Consultant). Kunde: Rhine Equipment Services (deutscher Baugerätehändler und Serviceanbieter)."
+          "text": "Umsetzungskontext: Field-Service-Neuaufbau, fachlich geführt von Stefan innerhalb des ERP-Anbieterumfelds für einen Servicekunden. Kunde: Rhine Equipment Services (deutscher Baugerätehändler und Serviceanbieter)."
         }
       ]
     },
@@ -62,7 +62,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "1. Codegenerator durch standardisierte WinForms-Architektur in C# ersetzt Vionix migrierte die Applikationslogik vollständig nach C# und entfernte den Node.js-Layer. Ein einmaliges Konvertierungstool extrahierte verwertbare Formdefinitionen aus dem Datenbank-XML und überführte sie in nativen C#-WinForms-Quellcode."
+          "text": "1. Codegenerator durch standardisierte WinForms-Architektur in C# ersetzt Stefan migrierte die Applikationslogik vollständig nach C# und entfernte den Node.js-Layer. Ein einmaliges Konvertierungstool extrahierte verwertbare Formdefinitionen aus dem Datenbank-XML und überführte sie in nativen C#-WinForms-Quellcode."
         },
         {
           "type": "p",
@@ -70,11 +70,11 @@
         },
         {
           "type": "p",
-          "text": "3. SQL-Server-Views als verbindlichen Datenvertrag genutzt Statt individueller Extraktionsprogramme von Schema A nach Schema B stellte Vionix serverseitige Views bereit, inklusive berechneter Felder, die exakt den Clientbedarf abbildeten. Administratoren konnten Filter wie nur öffentliche Produktgruppen oder Ausschluss von Großhandelskategorien als SQL-WHERE-Logik steuern."
+          "text": "3. SQL-Server-Views als verbindlichen Datenvertrag genutzt Statt individueller Extraktionsprogramme von Schema A nach Schema B stellte Stefan serverseitige Views bereit, inklusive berechneter Felder, die exakt den Clientbedarf abbildeten. Administratoren konnten Filter wie nur öffentliche Produktgruppen oder Ausschluss von Großhandelskategorien als SQL-WHERE-Logik steuern."
         },
         {
           "type": "p",
-          "text": "4. Schemaweitergabe automatisiert über SOAP und WSDL Vionix implementierte SOAP-Webservices mit WSDL-Definitionen. Visual Studio generierte daraus automatisch das typisierte Client-DataSet. Manuelles Protokollcoding entfiel. Bei View-Änderungen propagierte das Schema automatisiert."
+          "text": "4. Schemaweitergabe automatisiert über SOAP und WSDL Stefan implementierte SOAP-Webservices mit WSDL-Definitionen. Visual Studio generierte daraus automatisch das typisierte Client-DataSet. Manuelles Protokollcoding entfiel. Bei View-Änderungen propagierte das Schema automatisiert."
         },
         {
           "type": "p",
@@ -96,7 +96,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Nach rund zwei Jahren Entwicklung übergab Vionix an das interne Entwicklungsteam des Kunden:"
+          "text": "Nach rund zwei Jahren Entwicklung übergab Stefan die neu aufgebaute Anwendung an das aufnehmende interne Entwicklungsteam:"
         },
         {
           "type": "list",
@@ -164,11 +164,11 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "So hat Vionix gearbeitet",
+      "heading": "Kontext der Umsetzung",
       "blocks": [
         {
           "type": "p",
-          "text": "Vionix arbeitete über rund zwei Jahre im Stabilisieren-und-Neuaufbauen-Modell parallel zum laufenden Betrieb des Kunden. Nach Fertigstellung wurden Anwendung, Testsuiten und Betriebswissen an das interne Entwicklungsteam übergeben. Der Kunde erhielt volle Steuerung über Synchronisationsfilter und Administrationsparameter, und das Beta-Programm stellte sicher, dass reale Nutzeranforderungen den finalen Rollout vorab formten."
+          "text": "Stefan trieb Stabilisierung und Neuaufbau über rund zwei Jahre parallel zum laufenden Betrieb voran. Die Arbeit verband Architekturkorrektur, Offline-First-Redesign, Validierung mit Pilotnutzern und eine gestufte Übergabe an das aufnehmende Team. Anwendung, Testsuiten und Betriebswissen wurden so übergeben, dass die Organisation nach dem Rollout vollständige Kontrolle behielt."
         }
       ]
     }

@@ -14,11 +14,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Liefermodell: Principal-geführtes Engagement (Stefan, Gründer und Principal Consultant). Kunde: Nordlicht Retail (deutscher Modehändler)."
+          "text": "Lieferkontext: Frühere unabhängige Infrastrukturarbeit im Einzelhandel, fachlich geführt von Stefan. Kunde: Nordlicht Retail (deutscher Modehändler)."
         },
         {
           "type": "p",
-          "text": "Ein großer deutscher Modehändler mit über 80 Filialen kämpfte mit eskalierenden Ausfällen der Kassensysteme, verursacht durch Textilstaub. Aus einem gelegentlichen Ärgernis wurde mit wachsendem Filialnetz eine tägliche Krise. Vionix gestaltete den Hardware-Stack neu, arbeitete mit Ladenbaupartnern an belüfteten Einhausungen in Verkaufstheken und etablierte jährliche Tiefenreinigungszyklen. Dadurch sanken die Ausfälle von mehreren pro Woche auf 1 bis 2 pro Quartal."
+          "text": "Ein großer deutscher Modehändler mit über 80 Filialen kämpfte mit eskalierenden Ausfällen der Kassensysteme, verursacht durch Textilstaub. Aus einem gelegentlichen Ärgernis wurde mit wachsendem Filialnetz eine tägliche Krise. Stefan gestaltete den Hardware-Stack neu, arbeitete mit Ladenbaupartnern an belüfteten Einhausungen in Verkaufstheken und etablierte jährliche Tiefenreinigungszyklen. Dadurch sanken die Ausfälle von mehreren pro Woche auf 1 bis 2 pro Quartal."
         }
       ]
     },
@@ -28,7 +28,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Der Textileinzelhandel erzeugt durch Warenhandling, Falten und Kundenverkehr permanent Staub in der Luft. Über Jahre standen beim Händler Standard-Desktop-PCs mit Scanner, Bondrucker, Kassenschublade und Netzwerkkarte offen auf oder unter den Theken. Bei 20 Filialen war ein Ausfall pro Monat noch tolerierbar. Mit dem Wachstum auf 80+ Standorte stiegen die Ausfälle zunächst linear mit der Filialzahl und beschleunigten sich zusätzlich durch alternde Hardware und zunehmenden Staubeintrag. Als Vionix einstieg, fielen im Verbund täglich oder wöchentlich mehrere Terminals aus."
+          "text": "Der Textileinzelhandel erzeugt durch Warenhandling, Falten und Kundenverkehr permanent Staub in der Luft. Über Jahre standen beim Händler Standard-Desktop-PCs mit Scanner, Bondrucker, Kassenschublade und Netzwerkkarte offen auf oder unter den Theken. Bei 20 Filialen war ein Ausfall pro Monat noch tolerierbar. Mit dem Wachstum auf 80+ Standorte stiegen die Ausfälle zunächst linear mit der Filialzahl und beschleunigten sich zusätzlich durch alternde Hardware und zunehmenden Staubeintrag. Als Stefan die Aufgabe übernahm, fielen im Verbund täglich oder wöchentlich mehrere Terminals aus."
         },
         {
           "type": "p",
@@ -57,7 +57,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "1. Realistische Erwartungen setzen Vionix eröffnete das Engagement mit der klaren Botschaft: Selbst gehärtete Systeme fallen in staubigen Umgebungen gelegentlich aus. Ziel ist die Minimierung von Downtime, nicht deren vollständige Eliminierung."
+          "text": "1. Realistische Erwartungen setzen Stefan eröffnete die Arbeit mit der klaren Botschaft: Selbst gehärtete Systeme fallen in staubigen Umgebungen gelegentlich aus. Ziel ist die Minimierung von Downtime, nicht deren vollständige Eliminierung."
         },
         {
           "type": "p",
@@ -97,7 +97,7 @@
         },
         {
           "type": "p",
-          "text": "7. Jährliches Tiefenreinigungsprotokoll Ein geplanter Wartungszyklus wurde eingeführt: Ein Techniker besucht jede Filiale einmal pro Jahr, demontiert Terminals, reinigt intern, tauscht Filter, prüft Kabelführung und bestätigt die Integrität der Einhausung. Anfangs führte Vionix dies selbst durch (50:50 zwischen Lead und Kollege), später übernahm ein geschulter Partner den Hauptanteil (80 Prozent) unter Vionix-Aufsicht (20 Prozent)."
+          "text": "7. Jährliches Tiefenreinigungsprotokoll Ein geplanter Wartungszyklus wurde eingeführt: Ein Techniker besucht jede Filiale einmal pro Jahr, demontiert Terminals, reinigt intern, tauscht Filter, prüft Kabelführung und bestätigt die Integrität der Einhausung. Anfangs führten Stefan und ein Kollege diese Arbeiten selbst durch, später übernahm ein geschulter Partner den Hauptanteil, sobald der Prozess stabil lief."
         }
       ]
     },
@@ -126,7 +126,7 @@
             "Ausfallrate gesenkt: von mehreren Ausfällen pro Woche (im Peak täglich) auf 1 bis 2 pro Quartal im Gesamtverbund",
             "Operative Stabilität: Wegfall manueller Notprozesse, Rechenfehler, Wechselgeldfehler und Bestandssynchronisationsausfälle",
             "Verbesserte Arbeitsrealität: Kassenkräfte arbeiteten deutlich weniger gegen das System, die Zentrale erhielt wieder Echtzeitsicht auf Bestände",
-            "Höheres Kundenvertrauen: Der Händler nahm Vionix als Partner wahr, der systemische Infrastrukturprobleme löst statt nur Vorfälle abzufedern"
+            "Höheres Kundenvertrauen: Der Händler gewann Vertrauen in die technische Antwort und in Stefans Fähigkeit, systemische Infrastrukturprobleme zu lösen statt nur Vorfälle abzufedern"
           ]
         }
       ]
@@ -155,11 +155,11 @@
     },
     {
       "id": "how-vionix-worked",
-      "heading": "So hat Vionix gearbeitet",
+      "heading": "Kontext der Umsetzung",
       "blocks": [
         {
           "type": "p",
-          "text": "Vionix führte die initiale Analyse, das Hardening-Design und die Protokollentwicklung und trainierte parallel einen internen Kollegen, der schrittweise die Hauptverantwortung im Wartungsbetrieb übernahm. Das Theken-Redesign erforderte enge Zusammenarbeit mit den Innenausbaupartnern des Händlers. Technische Vorgaben wie Luftführung, Kabelführung und Filterzugang mussten in ästhetisch und ergonomisch tragfähige Thekenlayouts übersetzt werden. Die laufende Wartung wurde später an einen Spezialpartner übergeben, unter Vionix-Supervision, um langfristige Stabilität ohne Dauerabhängigkeit sicherzustellen."
+          "text": "Stefan führte die initiale Analyse, das Hardening-Design, den Rollout-Ansatz und das Wartungsprotokoll für die POS-Umgebung. Das Theken-Redesign erforderte enge Zusammenarbeit mit den Innenausbaupartnern des Händlers, damit Luftführung, Kabelführung und Filterzugang in tragfähige Ladenlayouts übersetzt werden konnten. Die laufende Wartung wurde später an einen Spezialpartner übergeben, ohne von einer einzelnen Person dauerhaft abhängig zu bleiben."
         }
       ]
     }

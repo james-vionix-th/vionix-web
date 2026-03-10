@@ -14,7 +14,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Liefermodell: Principal-geführtes Engagement (Stefan, Gründer und Principal Consultant). Kunde: Ironbridge ERP (deutscher ERP-Anbieter für Maschinenhandel und Vermietung). Herausforderung: Internes BI-System mit nächtlichen Batch-Prozessen skalierte nicht mehr. Bei großen Kunden wurde das Nachtfenster überschritten, Daten blieben unvollständig, Vertrauen ging verloren. Dauer: 3 Monate. Ansatz: Komplexe ETL-Architektur durch optimierte SQL-Views, gezielte Indizierung und Laufzeitberechnungen auf der Quell-Datenbank ersetzt."
+          "text": "Umsetzungskontext: Interne BI-Architekturintervention, fachlich geführt von Stefan innerhalb einer ERP-Organisation. Kundenkontext: Ironbridge ERP (deutscher ERP-Anbieter für Maschinenhandel und Vermietung). Herausforderung: Internes BI-System mit nächtlichen Batch-Prozessen skalierte nicht mehr. Bei großen Kunden wurde das Nachtfenster überschritten, Daten blieben unvollständig, Vertrauen ging verloren. Dauer: 3 Monate. Ansatz: Komplexe ETL-Architektur durch optimierte SQL-Views, gezielte Indizierung und Laufzeitberechnungen auf der Quell-Datenbank ersetzt."
         }
       ]
     },
@@ -60,11 +60,11 @@
       "blocks": [
         {
           "type": "p",
-          "text": "1. Schnelle Discovery und Hypothesentest in 10 Tagen Vionix prüfte die bestehende Transformationslogik und die ausgeführten SQL-Queries auf der Sekundärdatenbank. Das Muster war schnell klar: fehlende Indizes verursachten Full-Table-Scans, und vermeintlich komplexe Transformationen waren in Wahrheit normale Joins und Aggregationen. Der Nacht-ETL existierte primär wegen der Annahme, Echtzeit sei unmöglich, nicht wegen technischer Notwendigkeit."
+          "text": "1. Schnelle Discovery und Hypothesentest in 10 Tagen Stefan prüfte die bestehende Transformationslogik und die ausgeführten SQL-Queries auf der Sekundärdatenbank. Das Muster war schnell klar: fehlende Indizes verursachten Full-Table-Scans, und vermeintlich komplexe Transformationen waren in Wahrheit normale Joins und Aggregationen. Der Nacht-ETL existierte primär wegen der Annahme, Echtzeit sei unmöglich, nicht wegen technischer Notwendigkeit."
         },
         {
           "type": "p",
-          "text": "2. Proof of Concept mit SQL-Views Vionix baute einen Prototyp für zwei bis drei der meistgenutzten BI-Reports direkt auf SQL-Views der ERP-Quelle. Die Views bildeten die Datenaufbereitung ab, inklusive korrekter Joins, berechneter Felder wie Lagerstände und Durchschnittspreise sowie Stored Procedures für komplexere Fälle. Über Query-Optimizer und Ausführungspläne wurden fehlende Indizes identifiziert und gezielt ergänzt."
+          "text": "2. Proof of Concept mit SQL-Views Stefan baute einen Prototyp für zwei bis drei der meistgenutzten BI-Reports direkt auf SQL-Views der ERP-Quelle. Die Views bildeten die Datenaufbereitung ab, inklusive korrekter Joins, berechneter Felder wie Lagerstände und Durchschnittspreise sowie Stored Procedures für komplexere Fälle. Über Query-Optimizer und Ausführungspläne wurden fehlende Indizes identifiziert und gezielt ergänzt."
         },
         {
           "type": "p",
@@ -72,15 +72,15 @@
         },
         {
           "type": "p",
-          "text": "4. Entwickler-Buy-in durch Zusammenarbeit Das ursprüngliche Team reagierte zunächst defensiv, weil ihr System ersetzt wurde. Vionix änderte den Rahmen: keine Schuldzuweisung, sondern gemeinsame Migration. Als die Entwickler die Einfachheit des Prototyps sahen, etwa Select-Änderung in Views statt Debugging fragiler Transformationsketten über tausende Zeilen, kippte Widerstand in aktive Unterstützung."
+          "text": "4. Entwickler-Buy-in durch Zusammenarbeit Das ursprüngliche Team reagierte zunächst defensiv, weil ihr System ersetzt wurde. Stefan änderte den Rahmen: keine Schuldzuweisung, sondern gemeinsame Migration. Als die Entwickler die Einfachheit des Prototyps sahen, etwa Select-Änderung in Views statt Debugging fragiler Transformationsketten über tausende Zeilen, kippte Widerstand in aktive Unterstützung."
         },
         {
           "type": "p",
-          "text": "5. Vollständige Migration und Wissenstransfer In den folgenden Wochen migrierte Vionix alle BI-Strukturen systematisch in die View-Architektur, stellte Feature-Parität sicher und führte strukturierte Schulungen mit Präsentationen, Tutorials und Walkthroughs durch. Das Team dokumentierte, fragte nach und erhielt Materialien als Referenz. Inline-Codekommentare reichten als laufende Dokumentation aus."
+          "text": "5. Vollständige Migration und Wissenstransfer In den folgenden Wochen migrierte Stefan alle BI-Strukturen systematisch in die View-Architektur, stellte Feature-Parität sicher und führte strukturierte Schulungen mit Präsentationen, Tutorials und Walkthroughs durch. Das Team dokumentierte, fragte nach und erhielt Materialien als Referenz. Inline-Codekommentare reichten als laufende Dokumentation aus."
         },
         {
           "type": "p",
-          "text": "6. Rollback-Sicherheit und schrittweiser Vertrauensaufbau Das finanzielle Risiko blieb auf Beratungsstunden begrenzt, weil das alte System während der Umstellung betriebsbereit blieb. Ein Rückfallpfad war vorhanden, wurde aber nicht benötigt. Bis Projektende war das Vertrauen in die neue Architektur vollständig hergestellt."
+          "text": "6. Rollback-Sicherheit und schrittweiser Vertrauensaufbau Weil das alte System während der Umstellung betriebsbereit blieb, war ein belastbarer Rückfallpfad vorhanden. Er wurde nicht benötigt. Bis Projektende war das Vertrauen in die neue Architektur vollständig hergestellt."
         }
       ]
     },
@@ -129,7 +129,7 @@
       "blocks": [
         {
           "type": "p",
-          "text": "Legacy-Annahmen hinterfragt Die gesamte ETL-Architektur existierte, weil irgendwann jemand Echtzeit für unmöglich erklärte. Diese Annahme wurde nie neu geprüft, obwohl sich SQL-Server-Fähigkeiten weiterentwickelt hatten. Vionix auditierte zuerst die Prämisse, nicht nur die Implementierung."
+          "text": "Legacy-Annahmen hinterfragt Die gesamte ETL-Architektur existierte, weil irgendwann jemand Echtzeit für unmöglich erklärte. Diese Annahme wurde nie neu geprüft, obwohl sich SQL-Server-Fähigkeiten weiterentwickelt hatten. Stefan auditierte zuerst die Prämisse, nicht nur die Implementierung."
         },
         {
           "type": "p",
@@ -141,21 +141,21 @@
         },
         {
           "type": "p",
-          "text": "Nachweis statt Debatte Vionix argumentierte nicht abstrakt für Echtzeit, sondern demonstrierte sie. Der Prototyp mit zwei bis drei Reports plus Ausführungspläne und Parallelvalidierung machte die Entscheidung belastbar."
+          "text": "Nachweis statt Debatte Stefan argumentierte nicht abstrakt für Echtzeit, sondern demonstrierte sie. Der Prototyp mit zwei bis drei Reports plus Ausführungspläne und Parallelvalidierung machte die Entscheidung belastbar."
         },
         {
           "type": "p",
-          "text": "Menschliches System aktiv mitgeführt Technische Korrektheit allein reicht bei verletzten Besitzständen nicht. Vionix band das ursprüngliche Team als Partner ein, ließ sie die Vereinfachung selbst erfahren und würdigte ihr Systemwissen. Die Lösung setzte sich durch, weil sie auch sozial akzeptiert wurde."
+          "text": "Menschliches System aktiv mitgeführt Technische Korrektheit allein reicht bei verletzten Besitzständen nicht. Stefan band das ursprüngliche Team als Partner ein, ließ sie die Vereinfachung selbst erfahren und würdigte ihr Systemwissen. Die Lösung setzte sich durch, weil sie auch sozial akzeptiert wurde."
         }
       ]
     },
     {
       "id": "how-vionix-worked",
-      "heading": "So hat Vionix gearbeitet",
+      "heading": "Kontext der Umsetzung",
       "blocks": [
         {
           "type": "p",
-          "text": "Vionix arbeitete über drei Monate als eingebetteter technischer Advisor. Die Discovery-Phase mit zehn Tagen stellte Machbarkeit her, der Rest floss in Migration, Validierung und Wissenstransfer."
+          "text": "Stefan führte die Arbeit innerhalb der ERP-Organisation, beginnend mit einer kurzen Machbarkeitsphase und anschließendem Schwerpunkt auf Migration, Validierung und Wissenstransfer mit dem bestehenden Entwicklungsteam."
         },
         {
           "type": "p",
@@ -163,7 +163,7 @@
         },
         {
           "type": "p",
-          "text": "Das Engagement wurde stundenbasiert abgerechnet und spiegelte den iterativen Charakter wider. Die Lösung war früh erkennbar, die Zeit floss bewusst in gründliche Validierung, saubere Migration und echten Kompetenzaufbau. Zur Übergabe gehörte nicht nur der Code, sondern auch das architektonische Entscheidungsverständnis im internen Team."
+          "text": "Die Lösungsrichtung war früh erkennbar, die verbleibende Zeit floss bewusst in gründliche Validierung, saubere Migration und echten Kompetenzaufbau. Zur Übergabe gehörte nicht nur der Code, sondern auch das architektonische Entscheidungsverständnis im internen Team."
         }
       ]
     }
